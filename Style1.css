@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: linear-gradient(135deg, #A1C4FD 0%, #C2E9FB 100%);
+    background-attachment: fixed;
+}
+
+
+.left {
+    font-family: Poppins;
+    float: left;
+    width: 50%;
+    margin-left: 20%;
+    box-sizing: border-box;
+    background: #077B9F;
+    text-align: start;
+    border: 1px solid ;
+    border-radius: 5px;
+    height: 50%;
+    color: lightgrey;
+  }
+.right{
+        
+        float: left;
+        width: 50%;
+        margin-right: 20%;
+        box-sizing: border-box;
+        background: #FFFFFF;;
+        text-align: start;
+        border: 1px solid;
+        border-radius: 5px;
+        height: 50%;
+}
+
+.textpart{
+    font-family: Poppins;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
+.inputkeliye{
+    font-family: Poppins;
+    margin-top: 5%;
+    margin-left: 40px;
+    font-weight: 400;
+}
+
+.inputkeliye div{
+    margin-bottom: 0.25em;
+}
+#div2{
+    margin-top: 0.25em;
+}
+#username,#password, #Email{
+    display: block;
+    font-weight: 500;
+    font-family: Poppins;
+    border-radius: 10px;
+    padding: 5px;
+    font-stretch: extra-expanded;
+    color: black;
+    border: 0.5px solid #077B9F;
+    margin-bottom: 2%;  
+}
+
+
+.leftimage{
+    margin-left: 20%;
+    margin-top: 50%;
+    width: 80%;
+    height: 70%;
+    object-fit: cover;
+    align-items: center;
+    opacity: 0.9;
+
+
+}
+
+.imgclass img{
+    width: 80%;
+    height: 80%;
+    margin: 0 auto;
+    margin-left: 10%;
+    margin-top: 20%;
+}
+
+#BACK-btn{
+    font-family: Poppins bold;
+    background-color: none;
+    text-decoration: none;
+    color: #000000;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-left: 13px;
+
+    
+}
+
+#BACK-btn:hover{
+    color: #0056b3;
+
+}
+
+.forgetpass{
+    display: inline-flex;
+    font-size: small;
+    font-family: Poppins;
+    font-stretch: normal;
+    font-weight: 100;
+    justify-content: end;
+    margin-top: 10px;
+    margin-left: 180px;
+    color: #00000074;
+
+}
+.forgetpass a {
+    text-decoration: none;
+
+}
+
+.forgetpass a:hover{
+    color: #03556e;
+    font-weight: 300;
+}
+.Login-btn{  
+ display: flex;
+ flex-direction: row;
+ margin-top: 5%;
+ align-items: center;
+ justify-content: center; 
+}
+
+.Login-btn button{
+    padding: 1em 4em;
+    border-radius: 3em;
+    background-image: linear-gradient(to right, #56E0E0, #02607E);
+    color: white;
+    font-weight: 800;
+    border: 0.25px solid black;
+}
+
+.Login-btn button:hover{
+    cursor: pointer;
+    background-image: linear-gradient(to right, #41bdbd, #044d66);
+}
+
+.right a{
+    text-decoration: none;
+    color: #03556e;
+}
+
+.right a:hover{
+    cursor: pointer;
+    color: #56E0E0;
+}
+
+.alreadyuser{
+    text-decoration: none;
+    color: #044d66;
+    margin-top: 10px;
+    margin-left: 170px;
+}
+
+.alreadyuser:hover{
+    cursor: pointer;
+    color:#56E0E0;
+}
+
